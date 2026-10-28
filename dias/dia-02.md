@@ -2,6 +2,8 @@
 
 [← Día 1](dia-01.md) · [Volver al README](../README.md) · [Día 3 →](dia-03.md)
 
+> **Qué cambió:** el objetivo ahora es publicar su primera página con GitHub Pages ([Día 3](dia-03.md)). Trabajan directo en su repo, así que los bloques de **ramas** y **pull request** de esta guía son opcionales. Lo que sí sirve: historial, deshacer cambios, issues y el [bloque 5](#bloque-5--charla-con-mauro-el-flujo-de-trabajo-30-min) con Mauro.
+
 Ayer hiciste tu primer pull request. Hoy aprendés a trabajar con **ramas**, a **deshacer cambios** y a usar **issues**, y además le preguntás a Mauro cómo es el flujo de trabajo de verdad en Hook.
 
 ## Cómo se maneja el tiempo
