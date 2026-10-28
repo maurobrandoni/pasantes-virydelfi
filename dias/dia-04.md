@@ -11,17 +11,18 @@ Trabajan igual que ayer: editan, guardan, **Commit to main**, **Push origin**, y
 | Minutos | Qué hacen |
 |---|---|
 | 0 – 10 | Repaso: abrir la página pública y el repo |
-| 10 – 40 | [Bloque 1](#bloque-1--el-archivo-de-estilos-30-min): el archivo de estilos |
-| 40 – 50 | Descanso |
-| 50 – 85 | [Bloque 2](#bloque-2--colores-y-tipografía-35-min): colores y tipografía |
-| 85 – 120 | [Bloque 3](#bloque-3--secciones-y-cajas-35-min): secciones y cajas |
-| 120 – 155 | [Bloque 4](#bloque-4--imágenes-35-min): imágenes |
-| 155 – 175 | [Bloque 5](#bloque-5--probar-en-el-celular-20-min): probar en el celular |
+| 10 – 35 | [Bloque 1](#bloque-1--el-archivo-de-estilos-25-min): el archivo de estilos |
+| 35 – 45 | Descanso |
+| 45 – 75 | [Bloque 2](#bloque-2--colores-y-tipografía-30-min): colores y tipografía |
+| 75 – 105 | [Bloque 3](#bloque-3--secciones-y-cajas-30-min): secciones y cajas |
+| 105 – 125 | [Bloque 4](#bloque-4--imágenes-20-min): imágenes |
+| 125 – 165 | [Bloque 5](#bloque-5--pedirle-una-página-a-la-ia-40-min): pedirle una página a la IA |
+| 165 – 175 | [Bloque 6](#bloque-6--probar-en-el-celular-10-min): probar en el celular |
 | 175 – 180 | Cierre |
 
 ---
 
-## Bloque 1 · El archivo de estilos (30 min)
+## Bloque 1 · El archivo de estilos (25 min)
 
 HTML dice **qué** hay en la página. CSS dice **cómo se ve**. Van en archivos separados.
 
@@ -51,7 +52,7 @@ body {
 
 ---
 
-## Bloque 2 · Colores y tipografía (35 min)
+## Bloque 2 · Colores y tipografía (30 min)
 
 Prueben y cambien los valores hasta que les guste:
 
@@ -89,7 +90,7 @@ Commit y push: `Pongo colores y tipografía`.
 
 ---
 
-## Bloque 3 · Secciones y cajas (35 min)
+## Bloque 3 · Secciones y cajas (30 min)
 
 1. En `index.html`, envuelvan cada parte (Quiénes somos, Qué estamos aprendiendo, Links) en una etiqueta `<section>`:
 
@@ -117,7 +118,7 @@ Commit y push: `Separo la página en secciones`.
 
 ---
 
-## Bloque 4 · Imágenes (35 min)
+## Bloque 4 · Imágenes (20 min)
 
 1. Creen una carpeta `imagenes` en el repo y copien adentro una foto o dibujo de ustedes.
 2. **El nombre del archivo, todo en minúsculas, sin espacios y sin tildes ni ñ**: `foto-equipo.jpg`, no `Foto Equipo.JPG`. GitHub Pages distingue mayúsculas de minúsculas y un nombre distinto da una imagen rota.
@@ -143,7 +144,33 @@ Commit y push: `Agrego una foto`. Si la imagen no aparece en la dirección públ
 
 ---
 
-## Bloque 5 · Probar en el celular (20 min)
+## Bloque 5 · Pedirle una página a la IA (40 min)
+
+Una IA (por ejemplo Claude o ChatGPT) puede escribir una página entera en segundos. No reemplaza que ustedes entiendan lo que hace, pero sirve para **probar ideas rápido** y aprender leyendo código ya armado.
+
+Ejemplo: una página de **portfolio de criminología**, donde una de ustedes se presenta y se ofrece para hacer trabajos.
+
+1. Abran la IA y pídanle, por ejemplo:
+
+```
+Haceme una página web de portfolio para una estudiante de criminología que se ofrece para hacer trabajos de análisis de casos, investigación y redacción de informes. Que sea un solo archivo index.html con el CSS adentro, en español, con secciones (presentación, servicios, contacto) y que se vea bien en el celular.
+```
+
+2. Copien el código que les devuelve.
+3. En VS Code, creen una carpeta `portfolio` en el repo y adentro un archivo `index.html`. Así no pisan la página principal. Peguen el código y guarden.
+4. Clic derecho sobre `portfolio/index.html` → **Open with Live Server** y miren cómo quedó.
+5. Pídanle cambios a la IA ("poné los colores en violeta", "agregá una sección de preguntas frecuentes") y repitan: copiar, pegar, guardar, mirar.
+6. Cuando les guste, commit y push: `Agrego el portfolio de prueba`. A los dos minutos queda en `https://virydelfi.github.io/pasantes/portfolio/`.
+
+### Cuidados
+
+- **Datos personales:** la página es pública. Usen solo el nombre de pila. Nada de teléfono, dirección, DNI ni redes personales. Para el contacto, un mail inventado o el de pasante.
+- **Nada inventado:** la IA suele agregar títulos, experiencia o frases que nadie tiene. Antes de publicar, borren lo que no sea verdad.
+- **Entiendan lo que pegan:** elijan una parte del código y pregúntenle a la IA qué hace. Después cámbienla y vean qué se rompe o qué mejora.
+
+---
+
+## Bloque 6 · Probar en el celular (10 min)
 
 1. Abran la dirección pública en el celular.
 2. En la compu: en el navegador apreten `F12` y después `Ctrl+Shift+M` para simular distintos celulares.

@@ -37,6 +37,24 @@ Ya no hay pull requests. Este repo es de ustedes: pueden guardar todos los cambi
 
 ---
 
+## Extensión recomendada: Live Server
+
+Instálenla en VS Code ahora, antes del Día 3. Es la que les muestra la página mientras la escriben, sin tener que subir nada.
+
+1. En VS Code, abran extensiones (`Ctrl+Shift+X`).
+2. Busquen **Live Server** (autor: *Ritwick Dey*) y toquen **Install**.
+3. Clic derecho sobre un archivo `.html` → **Open with Live Server**. Se abre el navegador y, cada vez que guardan (`Ctrl+S`), la página se actualiza sola.
+
+Live Server solo muestra la página en su compu. Para que la vea el mundo hay que hacer commit y push.
+
+---
+
+## Probar ideas con una IA
+
+Pueden pedirle a una IA que les escriba una página, copiar el código a una carpeta de este repo y verla con Live Server. Sirve para probar, ver cómo se hace algo y animarse a cambiarlo. Está explicado en el [Día 4](dias/dia-04.md#bloque-5--pedirle-una-página-a-la-ia-40-min).
+
+---
+
 ## ¿Y Node.js?
 
 **Por ahora no hace falta.** HTML, CSS y JavaScript funcionan directo en el navegador, y GitHub Pages publica los archivos tal cual están. Para ver los cambios mientras escriben alcanza con la extensión **Live Server** de VS Code, que se explica en el [Día 3](dias/dia-03.md).

@@ -7,7 +7,7 @@
 > - **Ya no hay fork ni pull request.** Este repo es de ustedes: guardan con commit y push directo, desde GitHub Desktop (ver el [README](../README.md#cómo-trabajan-desde-ahora)).
 > - **Node.js ya no hace falta** por ahora (ver el [README](../README.md#y-nodejs)). Saltéense el bloque 7.
 
-Datos de acceso (mail, app demo, PIN de la computadora): están en la tabla del [README](../README.md#lo-que-necesitás-saber-antes-de-empezar).
+Datos de acceso (mail, app demo, PIN de la computadora): están en la tabla del [README](../README.md#datos-que-necesitan).
 
 ## Cómo se maneja el tiempo
 
@@ -24,7 +24,7 @@ El día 1 son **180 minutos**. Descargar e instalar programas lleva rato, y mira
 | 55 – 65 | Descanso | |
 | 65 – 85 | [Bloque 5](#bloque-5--configurar-vs-code-y-git-20-min): configurar VS Code y Git | Mirar **Dietas** y **Pesajes** en la app |
 | 85 – 115 | [Bloque 6](#bloque-6--tu-primer-aporte-en-github-30-min): tu primer aporte | |
-| 115 – 145 | [Bloque 7](#bloque-7--nodejs-30-min): Node.js (ya no hace falta, saltear) | Mirar **Balanzas** y **Reportes** en la app |
+| 115 – 145 | [Bloque 7](#bloque-7--nodejs-30-min--ya-no-hace-falta): Node.js (ya no hace falta, saltear) | Mirar **Balanzas** y **Reportes** en la app |
 | 145 – 170 | [Bloque 8](#bloque-8--pull-request-y-cuestionario-25-min): pull request y cuestionario | Completar [`preguntas-app.md`](../preguntas-app.md) |
 | 170 – 180 | [Cierre](#cierre-10-min) | |
 

@@ -57,8 +57,8 @@ GitHub Pages busca un archivo llamado exactamente `index.html` en la raíz del r
 
 ### Verla en el navegador
 
-1. En VS Code, abran extensiones (`Ctrl+Shift+X`), busquen **Live Server** (de *Ritwick Dey*) e instálenla.
-2. Clic derecho sobre `index.html` → **Open with Live Server**.
+1. Si todavía no la instalaron: en VS Code, abran extensiones (`Ctrl+Shift+X`), busquen **Live Server** (de *Ritwick Dey*) e instálenla.
+2. Clic derecho sobre `index.html` → **Open with Live Server** (o el botón **Go Live** abajo a la derecha).
 3. Cambien el texto del `<h1>`, guarden, y miren cómo el navegador se actualiza solo.
 
 ### Qué es cada cosa
